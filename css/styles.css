@@ -110,6 +110,13 @@ body {
   color: firebrick;
 }
 
+.didDLetter,
+.didILetter,
+.didDTwoLetter {
+  font-family: "Raleway Dots", sans-serif;
+  font-size: 50px;
+}
+
 /* THE word */
 
 .theTLetter {
@@ -131,11 +138,13 @@ body {
 
 .frontendFLetter {
   color: purple;
+  font-weight: bold;
 }
 
 .frontendRLetter {
   background-color: blueviolet;
   color: darkgreen;
+  font-weight: 400;
 }
 
 .frontendOLetter {
@@ -247,7 +256,7 @@ body {
   color: hotpink;
 }
 .gardeningRLetter {
-  background-color: aqua;
+  background-color: #00ffff;
   color: orange;
 }
 .gardeningDLetter {
@@ -272,7 +281,7 @@ body {
 }
 .gardeningGTwoLetter {
   background-color: lightseagreen;
-  color: lightseagreen;
+  color: rgb(255, 20, 147);
 }
 
 /* BECAUSE word */
@@ -320,8 +329,8 @@ body {
   color: tomato;
 }
 .theyYLetter {
-  background-color: yellowgreen;
-  color: yellowgreen;
+  background-color: rgb(195, 0, 255);
+  color: rgb(170, 255, 1);
 }
 
 /* WANTED word */
@@ -432,6 +441,15 @@ body {
 .rootTLetter {
   background-color: mediumseagreen;
   color: teal;
+}
+
+.rootRLetter,
+.rootOLetter,
+.rootOTwoLetter,
+.rootTLetter {
+  font-family: "Ceviche One", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
 }
 
 /* SKILLS word */
